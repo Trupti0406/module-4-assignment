@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.png" />
-    <title>Trupti | Calculator</title>
+    <title>Calculator | Trupti</title>
     <!-- Bootstrap Links -->
     <link rel="stylesheet" href="style.css" />
     <link
@@ -29,7 +29,7 @@
           type="number"
           class="form-control"
           id="number1"
-          onclick="clearAnswer()"
+          onblur="clearAnswer()"
         />
       </div>
 
@@ -44,7 +44,12 @@
       </div>
       <div>
         <label for="number2" class="form-label">Number-2</label>
-        <input type="number" class="form-control" id="number2" />
+        <input
+          type="number"
+          class="form-control"
+          id="number2"
+          onblur="clearAnswer()"
+        />
       </div>
     </div>
 
